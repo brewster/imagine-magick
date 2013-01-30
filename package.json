@@ -12,8 +12,19 @@
   "main": "./lib/imagine-magick",
 
   "dependencies": {
-    "magick": "~ 0.0.1",
+    "gm": "~ 1.8.1",
     "obj-extend": "~ 0.1.0"
+  },
+  
+  "devDependencies": {
+    "mocha": "1.8.1",
+    "mockit": "0.1.1",
+    "should": "1.2.1",
+    "sinon": "1.5.2"
+  },
+  
+  "scripts": {
+    "test": "mocha -r should -R spec"
   },
 
   "license": "MIT"
